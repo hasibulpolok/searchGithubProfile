@@ -1,0 +1,93 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+}
+.logo{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.logo img{
+    width: 65px;
+}
+
+.searchresult{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.searchinput{
+    padding: 20px;
+    width: 45%;
+    margin-right: 5px;
+    outline: none;
+    border:2px solid blue;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.searchbutton{
+    background-color: black;
+    padding: 20px;
+    margin-right: 5px;
+    outline: none;
+    border:2px solid blue;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.display-result{
+    
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.img{
+    width: 28%;
+    background-color:white;
+    border:3px solid burlywood;
+}
+
+.img img{
+    width: 100%;
+
+}
+.details{
+    background: #000;
+    width: 30%;
+    color: white;
+    
+}
+
+.details .info{
+    font-family: 'Hina Mincho', serif;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 1.8rem;
+    line-height: 40px;
+}
+
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #000;
+    height: 3vh;
+    padding: 10px;
+    color: #fff;
+}

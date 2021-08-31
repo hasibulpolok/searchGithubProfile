@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <section>
+            <div class="logo">
+                <img src="img/git.png" alt="logo">
+                <h3>Search Github</h3>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div class="searchresult">
+                <input id="seacrh-field" type="text" class="searchinput" placeholder="Search a github profile">
+                <button class="searchbutton" onclick="searchUser()">Search User</button>
+
+            </div>
+        </section>
+        <section>
+
+            <div id="displayResult">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Hasibul Polok 2021 -
+            <script type="text/javascript">var year = new Date(); document.write(year.getFullYear());</script>
+        </p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
